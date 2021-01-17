@@ -1,0 +1,10 @@
+
+*.bak
+*.mti
+*.mpf
+transcript
+*.qdb
+*.qpg
+*.qtl
+work/_info
+work/_vmake
