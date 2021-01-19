@@ -1,3 +1,15 @@
+//==============================================================================
+//                                                                             |
+//    Project: Parameterized Sync Circular FIFO                                |
+//                                                                             |
+//    Module:  Sync Circular FIFO.                                             |
+//    Version:                                                                 |
+//             TBD,   January 18, 2021                                         |
+//                                                                             |
+//    Author:  Purvesh Sane, (purvesh96@gmail.com)                             |
+//                                                                             |
+//==============================================================================
+
 module sync_circular_fifo
 	#(parameter DATA_WIDTH = 64, parameter NUM_FIFO_BLOCKS = 1024, parameter POINTER_NUM_BITS = $clog2(NUM_FIFO_BLOCKS))
 	(input [(DATA_WIDTH - 1) : 0] data_in, wr_en_in, clk_in, rst_n_in,
