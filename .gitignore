@@ -8,3 +8,4 @@ transcript
 *.qtl
 work/_info
 work/_vmake
+.DS_Store
